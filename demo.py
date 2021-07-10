@@ -315,8 +315,8 @@ class Demo(QMainWindow):
 
 def main():
     app = QApplication(sys.argv)
-    win = Demo()
-    win.show()
+    demo = Demo()
+    demo.show()
     sys.exit(app.exec_())
 
 
